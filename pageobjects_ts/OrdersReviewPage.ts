@@ -13,7 +13,7 @@ export class OrdersReviewPage
     orderId : Locator;
 constructor(page:Page)
 {
-    this.page = page;
+this.page = page;
 this.country = page.locator("[placeholder*='Country']");
 this.dropdown = page.locator(".ta-results");
 this.emailId = page.locator(".user__name [type='text']").first();
