@@ -1,0 +1,386 @@
+{
+  "uid" : "28b8082a7339a06e",
+  "name" : "@Web Client App login for Zara Coat 4",
+  "fullName" : "@Web Client App login for Zara Coat 4",
+  "historyId" : " ClientAppPO.spec.js @Web Client App login for Zara Coat 4",
+  "time" : {
+    "start" : 1646063565385,
+    "stop" : 1646063595827,
+    "duration" : 30442
+  },
+  "status" : "broken",
+  "statusMessage" : "Pending operations:\n  - locator.waitFor at pageobjects/OrdersReviewPage.js:20:25\n\nlocator.waitFor: Target closed\n=========================== logs ===========================\nwaiting for selector \".ta-results\" to be visible\n============================================================",
+  "statusTrace" : "Pending operations:\n  - locator.waitFor at pageobjects/OrdersReviewPage.js:20:25\n\nlocator.waitFor: Target closed\n=========================== logs ===========================\nwaiting for selector \".ta-results\" to be visible\n============================================================\n    at OrdersReviewPage.searchCountryAndSelect (/Users/rahulshetty/PlayWrightAutomation/pageobjects/OrdersReviewPage.js:20:25)\n    at /Users/rahulshetty/PlayWrightAutomation/tests/ClientAppPO.spec.js:28:5\n    at /Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:373:7\n    at TestInfoImpl._runFn (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/testInfo.js:164:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:348:24)\n    at TestInfoImpl._runWithTimeout (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/testInfo.js:152:7)\n    at WorkerRunner._runTestOrAllHook (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:308:5)\n    at WorkerRunner._runSuite (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:221:43)\n    at WorkerRunner.run (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:163:9)\n    at process.<anonymous> (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/worker.js:94:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Pending operations:\n  - locator.waitFor at pageobjects/OrdersReviewPage.js:20:25\n\nlocator.waitFor: Target closed\n=========================== logs ===========================\nwaiting for selector \".ta-results\" to be visible\n============================================================",
+    "statusTrace" : "Pending operations:\n  - locator.waitFor at pageobjects/OrdersReviewPage.js:20:25\n\nlocator.waitFor: Target closed\n=========================== logs ===========================\nwaiting for selector \".ta-results\" to be visible\n============================================================\n    at OrdersReviewPage.searchCountryAndSelect (/Users/rahulshetty/PlayWrightAutomation/pageobjects/OrdersReviewPage.js:20:25)\n    at /Users/rahulshetty/PlayWrightAutomation/tests/ClientAppPO.spec.js:28:5\n    at /Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:373:7\n    at TestInfoImpl._runFn (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/testInfo.js:164:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:348:24)\n    at TestInfoImpl._runWithTimeout (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/testInfo.js:152:7)\n    at WorkerRunner._runTestOrAllHook (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:308:5)\n    at WorkerRunner._runSuite (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:221:43)\n    at WorkerRunner.run (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/workerRunner.js:163:9)\n    at process.<anonymous> (/Users/rahulshetty/PlayWrightAutomation/node_modules/@playwright/test/lib/worker.js:94:5)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1646063565387,
+        "stop" : 1646063565832,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1646063565633,
+          "stop" : 1646063565832,
+          "duration" : 199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://rahulshettyacademy.com/client)",
+      "time" : {
+        "start" : 1646063565836,
+        "stop" : 1646063570493,
+        "duration" : 4657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#userEmail, anshika@gmail.com)",
+      "time" : {
+        "start" : 1646063570494,
+        "stop" : 1646063570550,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#userPassword, Iamking@000)",
+      "time" : {
+        "start" : 1646063570551,
+        "stop" : 1646063570579,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([value='Login'])",
+      "time" : {
+        "start" : 1646063570580,
+        "stop" : 1646063570620,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForLoadState",
+      "time" : {
+        "start" : 1646063570622,
+        "stop" : 1646063574295,
+        "duration" : 3673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.allTextContents(.card-body b)",
+      "time" : {
+        "start" : 1646063574296,
+        "stop" : 1646063574309,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(.card-body)",
+      "time" : {
+        "start" : 1646063574313,
+        "stop" : 1646063574315,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent(.card-body >> nth=0 >> b)",
+      "time" : {
+        "start" : 1646063574317,
+        "stop" : 1646063574323,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent(.card-body >> nth=1 >> b)",
+      "time" : {
+        "start" : 1646063574324,
+        "stop" : 1646063574330,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(.card-body >> nth=1 >> text= Add To Cart)",
+      "time" : {
+        "start" : 1646063574332,
+        "stop" : 1646063574366,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([routerlink*='cart'])",
+      "time" : {
+        "start" : 1646063574366,
+        "stop" : 1646063576398,
+        "duration" : 2032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.waitFor(div li >> nth=0)",
+      "time" : {
+        "start" : 1646063576399,
+        "stop" : 1646063576846,
+        "duration" : 447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.isVisible(h3:has-text('Zara Coat 4'))",
+      "time" : {
+        "start" : 1646063576847,
+        "stop" : 1646063576853,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeTruthy",
+      "time" : {
+        "start" : 1646063576856,
+        "stop" : 1646063576856,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(text=Checkout)",
+      "time" : {
+        "start" : 1646063576857,
+        "stop" : 1646063576919,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type([placeholder*='Country'], ind)",
+      "time" : {
+        "start" : 1646063576921,
+        "stop" : 1646063577236,
+        "duration" : 315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.waitFor(.ta-results)",
+      "time" : {
+        "start" : 1646063577237,
+        "stop" : 1646063595825,
+        "duration" : 18588
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1646063595389,
+        "stop" : 1646063595827,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1646063595820,
+          "stop" : 1646063595826,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "103cbda59bb1bfff",
+      "name" : "trace",
+      "source" : "103cbda59bb1bfff.ZIP",
+      "type" : "application/zip",
+      "size" : 6698900
+    }, {
+      "uid" : "e53da0a6f985d32",
+      "name" : "screenshot",
+      "source" : "e53da0a6f985d32.png",
+      "type" : "image/png",
+      "size" : 114832
+    }, {
+      "uid" : "8f6edf1ba78ac850",
+      "name" : "stdout",
+      "source" : "8f6edf1ba78ac850.txt",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "ClientAppPO.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28b8082a7339a06e.json",
+  "parameterValues" : [ ]
+}

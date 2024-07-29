@@ -1,0 +1,532 @@
+{
+  "uid" : "76a5a83ee2527ee4",
+  "name" : "@Web Browser Context-Validating Error login",
+  "fullName" : "@Web Browser Context-Validating Error login",
+  "historyId" : " UIBasicstest.spec.js @Web Browser Context-Validating Error login",
+  "time" : {
+    "start" : 1646063565397,
+    "stop" : 1646063574047,
+    "duration" : 8650
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1646063565398,
+        "stop" : 1646063565618,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "browserContext.newPage",
+      "time" : {
+        "start" : 1646063565640,
+        "stop" : 1646063565823,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.goto(https://rahulshettyacademy.com/loginpagePractise/)",
+      "time" : {
+        "start" : 1646063565826,
+        "stop" : 1646063567018,
+        "duration" : 1192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.title",
+      "time" : {
+        "start" : 1646063567020,
+        "stop" : 1646063567021,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#username, rahulshetty)",
+      "time" : {
+        "start" : 1646063567023,
+        "stop" : 1646063567065,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type([type='password'], learning)",
+      "time" : {
+        "start" : 1646063567067,
+        "stop" : 1646063567093,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(#signInBtn)",
+      "time" : {
+        "start" : 1646063567095,
+        "stop" : 1646063567134,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent([style*='block'])",
+      "time" : {
+        "start" : 1646063567136,
+        "stop" : 1646063569145,
+        "duration" : 2009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1646063569149,
+        "stop" : 1646063569158,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.fill(#username)",
+      "time" : {
+        "start" : 1646063569159,
+        "stop" : 1646063569170,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.fill(#username)",
+      "time" : {
+        "start" : 1646063569170,
+        "stop" : 1646063569182,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1646063569185,
+        "stop" : 1646063573750,
+        "duration" : 4565
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(#signInBtn)",
+      "time" : {
+        "start" : 1646063569186,
+        "stop" : 1646063569233,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent(.card-body a >> nth=0)",
+      "time" : {
+        "start" : 1646063573750,
+        "stop" : 1646063573781,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.textContent(.card-body a >> nth=1)",
+      "time" : {
+        "start" : 1646063573782,
+        "stop" : 1646063573788,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.allTextContents(.card-body a)",
+      "time" : {
+        "start" : 1646063573791,
+        "stop" : 1646063573800,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1646063573801,
+        "stop" : 1646063574047,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e4cccee87ee40007",
+      "name" : "trace",
+      "source" : "e4cccee87ee40007.ZIP",
+      "type" : "application/zip",
+      "size" : 2006295
+    }, {
+      "uid" : "af57642eb52df54",
+      "name" : "screenshot",
+      "source" : "af57642eb52df54.png",
+      "type" : "image/png",
+      "size" : 222328
+    }, {
+      "uid" : "75ae6c54be098344",
+      "name" : "stdout",
+      "source" : "75ae6c54be098344.txt",
+      "type" : "text/plain",
+      "size" : 50
+    }, {
+      "uid" : "142ceafc459d3b24",
+      "name" : "stdout",
+      "source" : "142ceafc459d3b24.txt",
+      "type" : "text/plain",
+      "size" : 64
+    }, {
+      "uid" : "34f3935dd533dca9",
+      "name" : "stdout",
+      "source" : "34f3935dd533dca9.txt",
+      "type" : "text/plain",
+      "size" : 70
+    }, {
+      "uid" : "26b91c13fcb92f69",
+      "name" : "stdout",
+      "source" : "26b91c13fcb92f69.txt",
+      "type" : "text/plain",
+      "size" : 66
+    }, {
+      "uid" : "2a23e86edef3839a",
+      "name" : "stdout",
+      "source" : "2a23e86edef3839a.txt",
+      "type" : "text/plain",
+      "size" : 68
+    }, {
+      "uid" : "acaf6234222741a9",
+      "name" : "stdout",
+      "source" : "acaf6234222741a9.txt",
+      "type" : "text/plain",
+      "size" : 80
+    }, {
+      "uid" : "f7c27ec43f142da6",
+      "name" : "stdout",
+      "source" : "f7c27ec43f142da6.txt",
+      "type" : "text/plain",
+      "size" : 82
+    }, {
+      "uid" : "96fe052c77f86d20",
+      "name" : "stdout",
+      "source" : "96fe052c77f86d20.txt",
+      "type" : "text/plain",
+      "size" : 84
+    }, {
+      "uid" : "787ccdedd5a6f50a",
+      "name" : "stdout",
+      "source" : "787ccdedd5a6f50a.txt",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "2402d0bfe7f26977",
+      "name" : "stdout",
+      "source" : "2402d0bfe7f26977.txt",
+      "type" : "text/plain",
+      "size" : 29
+    }, {
+      "uid" : "5fc5d8e593b77e6b",
+      "name" : "stdout",
+      "source" : "5fc5d8e593b77e6b.txt",
+      "type" : "text/plain",
+      "size" : 52
+    }, {
+      "uid" : "3356f8016969b3e5",
+      "name" : "stdout",
+      "source" : "3356f8016969b3e5.txt",
+      "type" : "text/plain",
+      "size" : 66
+    }, {
+      "uid" : "ee216b0df5b872d9",
+      "name" : "stdout",
+      "source" : "ee216b0df5b872d9.txt",
+      "type" : "text/plain",
+      "size" : 86
+    }, {
+      "uid" : "caa631f597261205",
+      "name" : "stdout",
+      "source" : "caa631f597261205.txt",
+      "type" : "text/plain",
+      "size" : 85
+    }, {
+      "uid" : "4fe19c6dbecc613",
+      "name" : "stdout",
+      "source" : "4fe19c6dbecc613.txt",
+      "type" : "text/plain",
+      "size" : 88
+    }, {
+      "uid" : "d89cbdd433273825",
+      "name" : "stdout",
+      "source" : "d89cbdd433273825.txt",
+      "type" : "text/plain",
+      "size" : 86
+    }, {
+      "uid" : "7affeeb9032a1929",
+      "name" : "stdout",
+      "source" : "7affeeb9032a1929.txt",
+      "type" : "text/plain",
+      "size" : 83
+    }, {
+      "uid" : "40dc44ecb33ffcac",
+      "name" : "stdout",
+      "source" : "40dc44ecb33ffcac.txt",
+      "type" : "text/plain",
+      "size" : 99
+    }, {
+      "uid" : "4c5bc325b2048aab",
+      "name" : "stdout",
+      "source" : "4c5bc325b2048aab.txt",
+      "type" : "text/plain",
+      "size" : 100
+    }, {
+      "uid" : "c8cf8d53c329b162",
+      "name" : "stdout",
+      "source" : "c8cf8d53c329b162.txt",
+      "type" : "text/plain",
+      "size" : 102
+    }, {
+      "uid" : "b949ed93c348e2cf",
+      "name" : "stdout",
+      "source" : "b949ed93c348e2cf.txt",
+      "type" : "text/plain",
+      "size" : 100
+    }, {
+      "uid" : "8bb3ef0585a7e60f",
+      "name" : "stdout",
+      "source" : "8bb3ef0585a7e60f.txt",
+      "type" : "text/plain",
+      "size" : 97
+    }, {
+      "uid" : "a4329ab3452b9d19",
+      "name" : "stdout",
+      "source" : "a4329ab3452b9d19.txt",
+      "type" : "text/plain",
+      "size" : 29
+    }, {
+      "uid" : "3fc69da7681273ad",
+      "name" : "stdout",
+      "source" : "3fc69da7681273ad.txt",
+      "type" : "text/plain",
+      "size" : 70
+    }, {
+      "uid" : "b2742992c53bb8a5",
+      "name" : "stdout",
+      "source" : "b2742992c53bb8a5.txt",
+      "type" : "text/plain",
+      "size" : 70
+    }, {
+      "uid" : "3f689b1c0c2d10eb",
+      "name" : "stdout",
+      "source" : "3f689b1c0c2d10eb.txt",
+      "type" : "text/plain",
+      "size" : 68
+    }, {
+      "uid" : "99bae0dac10c4e6a",
+      "name" : "stdout",
+      "source" : "99bae0dac10c4e6a.txt",
+      "type" : "text/plain",
+      "size" : 73
+    }, {
+      "uid" : "a3b55b045ac3575f",
+      "name" : "stdout",
+      "source" : "a3b55b045ac3575f.txt",
+      "type" : "text/plain",
+      "size" : 110
+    }, {
+      "uid" : "4f21f38d32c3e02e",
+      "name" : "stdout",
+      "source" : "4f21f38d32c3e02e.txt",
+      "type" : "text/plain",
+      "size" : 82
+    }, {
+      "uid" : "90c889547cd341db",
+      "name" : "stdout",
+      "source" : "90c889547cd341db.txt",
+      "type" : "text/plain",
+      "size" : 84
+    }, {
+      "uid" : "93ed0f738647b6f9",
+      "name" : "stdout",
+      "source" : "93ed0f738647b6f9.txt",
+      "type" : "text/plain",
+      "size" : 87
+    }, {
+      "uid" : "4d920ee44356311c",
+      "name" : "stdout",
+      "source" : "4d920ee44356311c.txt",
+      "type" : "text/plain",
+      "size" : 84
+    }, {
+      "uid" : "5feb4141d1d1ae2b",
+      "name" : "stdout",
+      "source" : "5feb4141d1d1ae2b.txt",
+      "type" : "text/plain",
+      "size" : 124
+    }, {
+      "uid" : "e042b5cfde53fd12",
+      "name" : "stdout",
+      "source" : "e042b5cfde53fd12.txt",
+      "type" : "text/plain",
+      "size" : 9
+    }, {
+      "uid" : "c34036274cf7b902",
+      "name" : "stdout",
+      "source" : "c34036274cf7b902.txt",
+      "type" : "text/plain",
+      "size" : 15
+    }, {
+      "uid" : "cbe662030f45f7dd",
+      "name" : "stdout",
+      "source" : "cbe662030f45f7dd.txt",
+      "type" : "text/plain",
+      "size" : 101
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 38,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "UIBasicstest.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76a5a83ee2527ee4.json",
+  "parameterValues" : [ ]
+}

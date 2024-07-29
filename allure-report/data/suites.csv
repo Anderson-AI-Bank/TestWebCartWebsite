@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Feb 28 10:54:55 EST 2022","Mon Feb 28 10:54:57 EST 2022","2344","","UIBasicstest.spec.js","","","","@Web UI Controls",""
+"passed","Mon Feb 28 10:54:47 EST 2022","Mon Feb 28 10:54:55 EST 2022","8731","","MoreValidations.spec.js","","","","@Web Popup validations",""
+"passed","Mon Feb 28 10:55:01 EST 2022","Mon Feb 28 10:55:14 EST 2022","13656","","ClientAppPO.spec.js","","","","@Web Client App login for Adidas Orignals",""
+"passed","Mon Feb 28 10:54:47 EST 2022","Mon Feb 28 10:55:01 EST 2022","13947","","ClientAppPO.spec.js","","","","@Web Client App login for Zara Coat 4",""
+"passed","Mon Feb 28 10:54:47 EST 2022","Mon Feb 28 10:54:55 EST 2022","8282","","UIBasicstest.spec.js","","","","@Web Browser Context-Validating Error login",""

@@ -1,0 +1,97 @@
+{
+  " UIBasicstest.spec.js @Web UI Controls" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46d10bbf89cfdf22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646063695449,
+        "stop" : 1646063697793,
+        "duration" : 2344
+      }
+    } ]
+  },
+  " ClientAppPO.spec.js @Web Client App login for Zara Coat 4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "941c4fc3c3fa58f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646063687156,
+        "stop" : 1646063701103,
+        "duration" : 13947
+      }
+    } ]
+  },
+  " UIBasicstest.spec.js @Web Browser Context-Validating Error login" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b864136a0a80ac80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646063687166,
+        "stop" : 1646063695448,
+        "duration" : 8282
+      }
+    } ]
+  },
+  " MoreValidations.spec.js @Web Popup validations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bf66f010020ca1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646063687159,
+        "stop" : 1646063695890,
+        "duration" : 8731
+      }
+    } ]
+  },
+  " ClientAppPO.spec.js @Web Client App login for Adidas Orignals" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bc3785339498c42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646063701103,
+        "stop" : 1646063714759,
+        "duration" : 13656
+      }
+    } ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "@Web Client App login for Adidas Orignals",
+    "uid" : "d8bd3aa1c704c16c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1646063609789,
+      "stop" : 1646063640229,
+      "duration" : 30440
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Zara Coat 4",
+    "uid" : "1841bff3eda2a072",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063474641,
+      "stop" : 1646063488707,
+      "duration" : 14066
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Zara Coat 4",
+    "uid" : "28b8082a7339a06e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1646063565385,
+      "stop" : 1646063595827,
+      "duration" : 30442
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web UI Controls",
+    "uid" : "46d10bbf89cfdf22",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063695449,
+      "stop" : 1646063697793,
+      "duration" : 2344
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Adidas Orignals",
+    "uid" : "e85b4ff7b95690a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1646063519210,
+      "stop" : 1646063549844,
+      "duration" : 30634
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Browser Context-Validating Error login",
+    "uid" : "b864136a0a80ac80",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063687166,
+      "stop" : 1646063695448,
+      "duration" : 8282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web UI Controls",
+    "uid" : "bb3f4265c88320ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063453399,
+      "stop" : 1646063455763,
+      "duration" : 2364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Popup validations",
+    "uid" : "4bf66f010020ca1a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063687159,
+      "stop" : 1646063695890,
+      "duration" : 8731
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Adidas Orignals",
+    "uid" : "5bc3785339498c42",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063701103,
+      "stop" : 1646063714759,
+      "duration" : 13656
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web UI Controls",
+    "uid" : "fde89b18557e75be",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063574047,
+      "stop" : 1646063576579,
+      "duration" : 2532
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Browser Context-Validating Error login",
+    "uid" : "16c8484926a9b6c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063444183,
+      "stop" : 1646063453400,
+      "duration" : 9217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Popup validations",
+    "uid" : "fb647d28a78a8f6e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063565390,
+      "stop" : 1646063573540,
+      "duration" : 8150
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Zara Coat 4",
+    "uid" : "ae113e991b826a73",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1646063444175,
+      "stop" : 1646063474596,
+      "duration" : 30421
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Popup validations",
+    "uid" : "e583e1ace0887d75",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063444175,
+      "stop" : 1646063452575,
+      "duration" : 8400
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Adidas Orignals",
+    "uid" : "65525f30503de84c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1646063488707,
+      "stop" : 1646063519136,
+      "duration" : 30429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Browser Context-Validating Error login",
+    "uid" : "76a5a83ee2527ee4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063565397,
+      "stop" : 1646063574047,
+      "duration" : 8650
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Zara Coat 4",
+    "uid" : "45993291e82c8b6a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063595870,
+      "stop" : 1646063609788,
+      "duration" : 13918
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Zara Coat 4",
+    "uid" : "941c4fc3c3fa58f6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646063687156,
+      "stop" : 1646063701103,
+      "duration" : 13947
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "@Web Client App login for Adidas Orignals",
+    "uid" : "85e8c68281b02451",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1646063640306,
+      "stop" : 1646063670893,
+      "duration" : 30587
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}
