@@ -1,5 +1,5 @@
 // @ts-check
-const { devices } = require('@playwright/test');
+import { devices } from '@playwright/test';
 
 const config = {
   testDir: './tests',
@@ -28,4 +28,4 @@ const config = {
 
 };
 
-module.exports = config;
+export default config;

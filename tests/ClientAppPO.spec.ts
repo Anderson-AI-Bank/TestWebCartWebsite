@@ -10,7 +10,7 @@ import {POManager} from '../pageobjects_ts/POManager';
  
 for(const data of dataset)
 {
- test(`@Webs Client App login for ${data.productName}`, async ({page})=>
+ test.only(`@Webs Client App login for ${data.productName}`, async ({page})=>
  {
    const poManager = new POManager(page);
     //js file- Login js, DashboardPage
